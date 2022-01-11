@@ -1,12 +1,11 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: inherit;
 }
 
 html {
     scroll-behavior: smooth;
     background-color: #EDF6E5;
+    overflow: hidden;
 }
 
 
@@ -47,4 +46,58 @@ a {
     color: #555555;
     background-color: #D8D3CD;
     border-radius: 5px;
+}
+
+.image {
+    height: 450px;
+    /* width: 5px; */
+    border-radius: 50px 50px 0px 0px;
+    margin-right: 0;
+}
+
+.konten {
+    padding: 50px 50px 0 50px;
+    background-color: #EDF6E5;
+    color: #555555;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.desc {
+    /* width: 400px; */
+    padding-top: 50px;
+}
+
+.about-text {
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 80px;
+    line-height: 35px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.hello {
+    /* color: #555555; */
+    font-family: Secular One;
+    font-size: 50px;
+}
+
+.ftext {
+    font-family: Dancing Script;
+    font-size: 36px;
+}
+
+.stext {
+    font-family: Abril Fatface;
+    font-size: 36px;
+}
+
+.tjob {
+    font-family: Forum;
+    font-size: 36px;
+}
+
+.edu {
+    background-color: #797A7E;
 }
