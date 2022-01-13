@@ -175,3 +175,18 @@ a {
     margin-bottom: 50px;
     /* height: 400px; */
 }
+
+.contact {
+    text-align: center;
+    font-size: 36px;
+    color: #555555;
+}
+
+.contact a {
+    color: #555555;
+    padding: 0 50px 0 50px;
+}
+
+.contact a:hover {
+    color: black;
+}
