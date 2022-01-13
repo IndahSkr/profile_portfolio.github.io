@@ -1,11 +1,16 @@
 body {
     margin: 0;
+    background: #EDF6E5;
 }
 
 html {
     scroll-behavior: smooth;
     background-color: #EDF6E5;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.content {
+    background-color: #EDF6E5;
 }
 
 
@@ -74,7 +79,7 @@ a {
     text-align: justify;
     margin-right: 80px;
     line-height: 35px;
-    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-feature-settings: 'pnum'on, 'lnum'on;
 }
 
 .hello {
@@ -99,5 +104,74 @@ a {
 }
 
 .edu {
-    background-color: #797A7E;
+    background: #797A7E;
+    margin: 0 50px 0 50px;
+    width: 91%;
+    /* border-radius: 30px; */
+    height: 500px;
+    position: relative;
+    /* position: absolute; */
+    padding: 30px;
+}
+
+.ptext {
+    color: white;
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 90px;
+    text-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tfirst,
+.tsecond,
+.tthird,
+.tedux {
+    background: #D8D3CD;
+    text-align: center;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 10px;
+    box-shadow: -15px 15px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+}
+
+.tedux {
+    padding: 58px 0 58px 0;
+}
+
+.project {
+    /* position: relative; */
+    margin: 50px 50px 0 50px;
+    padding: 0 50px 50px 50px;
+    /* width: 70%; */
+}
+
+.tproject,
+.tporto {
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.tribute,
+.portfolio {
+    background: #F7F2E7;
+    box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 80%;
+    font-family: Secular One;
+    text-align: center;
+    position: relative;
+}
+
+.img-tribute {
+    width: 85%;
+    margin-bottom: 50px;
+    /* height: 400px; */
 }
