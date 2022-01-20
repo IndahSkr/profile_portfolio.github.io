@@ -159,21 +159,26 @@ a {
     font-size: 36px;
 }
 
-.tribute,
-.portfolio {
+.proyek {
+    display: inline;
+}
+
+.atribut {
     background: #F7F2E7;
     box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    width: 80%;
+    width: 80%x;
+    /* height: 800px; */
     font-family: Secular One;
     text-align: center;
-    position: relative;
+    position: inherit;
+    margin: 0 10px;
 }
 
 .img-tribute {
     width: 85%;
     margin-bottom: 50px;
-    /* height: 400px; */
+    height: 300px;
 }
 
 .contact {
@@ -189,4 +194,16 @@ a {
 
 .contact a:hover {
     color: black;
+}
+
+.pproject {
+    font-family: Secular One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+}
+
+.arrow {
+    align-content: center;
 }

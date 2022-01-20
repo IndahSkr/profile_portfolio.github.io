@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Forum&family=Pacifico&family=Raleway&family=Roboto&family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -85,16 +87,28 @@
             </div>
         </div>
         <div class="project">
-            <p>Project</p>
-            <div class="row">
-                <div class="col-md-6 tribute">
-                    <p class="tproject">Tribute page</p>
-                    <a href="#"><img src="image/tribute_page.png" alt="photo profile" class="img-tribute"></a>
 
+            <p class="pproject">Project</p>
+            <div class="row proyek">
+
+                <div class="col-md-1 arrow">
+                    <i data-feather="chevron-left"></i>
                 </div>
-                <div class="col-md-6 portfolio">
-                    <p class="tporto">Portfolio</p>
-                    <a href="#"><img src="image/porto.png" alt="photo profile" class="img-tribute"></a>
+                <div class="col-md-5 tribute">
+
+                    <div class="atribut">
+                        <p class="tproject">Tribute page</p>
+                        <a href="#"><img src="image/tribute_page.png" alt="photo profile" class="img-tribute"></a>
+                    </div>
+                </div>
+                <div class="col-md-5 tribute">
+                    <div class="atribut">
+                        <p class="tporto">Portfolio</p>
+                        <a href="#"><img src="image/porto.png" alt="photo profile" class="img-tribute"></a>
+                    </div>
+                </div>
+                <div class="col-md-1 arrow">
+                    <i data-feather="chevron-right"></i>
                 </div>
             </div>
         </div>
@@ -106,5 +120,8 @@
     </div>
 
 </body>
+<script>
+    feather.replace()
+</script>
 
 </html>
