@@ -1,0 +1,384 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #EDF6E5;
+}
+
+header {
+    display: flex;
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    background-color: #D8D3CD;
+    color: #555555;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.menu {
+    display: none;
+}
+
+.sub-menu {
+    color: black;
+    overflow: hidden;
+}
+
+li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.sub-menu a {
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.sub-menu a:hover {
+    background-color: #D8D3CD;
+}
+
+.about {
+    display: flex;
+    margin: 40px 40px 0 80px;
+}
+
+.photo {
+    float: left;
+}
+
+.photo img {
+    border-radius: 50px 50px 0 0;
+    height: 500px;
+}
+
+.tabout {
+    float: right;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section {
+    display: block;
+}
+
+.tabout p {
+    margin: 0;
+}
+
+#hello {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.name {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.iam {
+    /* font-weight: bold; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.tname {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.job {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+.tj {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(121, 122, 126, 0.9);
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.reward {
+    background-color: #797A7E;
+    margin: -5px 50px 0 50px;
+    display: flex;
+    text-align: center;
+}
+
+.first-certif,
+.second-certif,
+.third-certif,
+.text-edu {
+    background-color: #D8D3CD;
+    box-shadow: -20px 20px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+    line-height: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.education,
+.certification {
+    flex: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 50px;
+}
+
+.title-edu,
+.title-certif {
+    font-size: 30px;
+    margin: 10px 0;
+    color: whitesmoke;
+    font-family: 'Secular One', sans-serif;
+    text-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project {
+    margin: 30px 50px;
+}
+
+.title-project {
+    font-size: 30px;
+    margin: 10px 0;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    text-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+    /* width: 500px; */
+    height: 250px;
+    margin: 0 35px;
+    border-radius: 5px;
+}
+
+.myproyek {
+    display: flex;
+}
+
+.atribut {
+    flex: auto;
+    background-color: #F7F2E7;
+    margin: 50px;
+    box-shadow: -8px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title-atribut {
+    font-family: 'Secular One', sans-serif;
+    font-size: 24px;
+    margin: 15px;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+    margin: 0 35px;
+}
+
+.type-lang {
+    margin: 3px;
+    /* background: lightgray; */
+    padding: 5px;
+    border-radius: 5px;
+    flex: auto;
+}
+
+.t-buttom {
+    margin: 10px 35px;
+    display: flex;
+}
+
+.t-buttom a {
+    text-decoration: none;
+    color: black;
+}
+
+.code,
+.link {
+    flex: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.code {
+    background-color: #D3DEDC;
+}
+
+.link {
+    background-color: #E4CDA7;
+}
+
+@media (max-width: 1000px) {
+    .image {
+        height: 150px;
+    }
+    .first-certif,
+    .second-certif,
+    .third-certif,
+    .text-edu {
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tabout {
+        margin-top: 30px;
+    }
+    .project {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .image {
+        width: 500px;
+        height: auto;
+    }
+    .myproyek {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column;
+    }
+    .reward {
+        flex-direction: column;
+    }
+    .myproyek {
+        flex-direction: column;
+    }
+    .image {
+        width: 300px;
+    }
+    .tabout {
+        margin: 10px;
+    }
+    .photo img {
+        height: 300px;
+    }
+    .photo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .image {
+        width: 200px;
+    }
+    .dropdown .menu {
+        display: flex;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        /* color: white; */
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    .sub-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: whitesmoke;
+        width: 100%;
+        z-index: 1;
+        font-family: 'Roboto', sans-serif;
+    }
+    .sub-menu a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .menu:hover .sub-menu {
+        display: block;
+    }
+    .show {
+        display: block;
+    }
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 15px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: lightgrey;
+    opacity: 60%;
+}
+
+.contact {
+    display: flex;
+    margin: 0;
+    border-top: 5px solid #555555;
+}
+
+.contact a {
+    color: #555555;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.type-contact {
+    flex: auto;
+}
+
+.type-contact:hover {
+    background-color: #797A7E;
+    opacity: 70%;
+    color: white;
+}
