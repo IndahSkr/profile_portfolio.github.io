@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mochiy+Pop+P+One&family=Poppins&family=Roboto&family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="navbar">
+            <a href="#" class="logo">SakuraIn</a>
+            <div class="dropdown">
+                <button class="menu" onclick="myFunction()"><i data-feather="list"></i></button>
+                <div class="sub-menu" id="myDropdown">
+                    <a href="#about">About</a>
+                    <a href="#reward">Education</a>
+                    <a href="#reward">Certification</a>
+                    <a href="#project">Project</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="about" id="about">
+                <div class="photo">
+                    <img src="image/indah.jpg" alt="photo">
+                </div>
+                <div class="tabout">
+                    <p id="hello">Hello</p>
+                    <div class="name">
+                        <p class="iam">I'm</p>
+                        &nbsp
+                        <p class="tname">Arif Hayati Indah Lestari</p>
+                    </div>
+                    <p class="job">FrontEnd Developer</p>
+                    <p class="tj">I am interested in web development, especially front-end development. The programming language that I can use is especially for front-end development and now i learning to use react.js. I also know python language and ever learning
+                        about GCP(Google Cloud Platform) at bangkit.</p>
+                </div>
+            </div>
+            <div class="reward" id="reward">
+                <div class="education">
+                    <p class="title-edu">Education</p>
+                    <div class="text-edu">
+                        <p>Universitas Negeri Semarang</p>
+                        <p>Bachelor's degree in Computer Science</p>
+                        <br>
+                        <p>08.2017/12.2021</p>
+                    </div>
+                </div>
+                <div class="certification">
+                    <p class="title-certif">Certifications</p>
+                    <div class="first-certif">
+                        <p>Belajar Dasar Pemrograman Web</p>
+                        <p>Dicoding Academy - 02.2021</p>
+                    </div>
+                    <div class="second-certif">
+                        <p>Belajar Dasar Pemrograman JavaScript</p>
+                        <p>Dicoding Academy - 07.2021</p>
+                    </div>
+                    <div class="third-certif">
+                        <p>Responsive Web Design</p>
+                        <p>FreeCodeCamp - 10.2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project">
+                <p class="title-project">Project</p>
+                <div class="proyek slideshow-container">
+                    <div class="fade mySlides">
+                        <div class="myproyek">
+                            <div class="atribut">
+                                <p class="title-atribut">Tribute Page</p>
+                                <a href="#" class="t-image"><img src="image/tribute_page.png" alt="photo profile" class="image"></a>
+                                <div class="language">
+                                    <p class="type-lang">HTML</p>
+                                    <p class="type-lang">CSS</p>
+                                </div>
+                                <div class="t-buttom">
+                                    <a class="code" href="#">Code</a>
+                                    <a class="link" href="#">Link</a>
+                                </div>
+                            </div>
+                            <div class="atribut">
+                                <p class="title-atribut">Portofolio</p>
+                                <a href="#" class="t-image"><img src="image/porto.png" alt="photo profile" class="image"></a>
+                                <div class="language">
+                                    <p class="type-lang">HTML</p>
+                                    <p class="type-lang">CSS</p>
+                                </div>
+                                <div class="t-buttom">
+                                    <a class="code" href="#">Code</a>
+                                    <a class="link" href="#">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade mySlides">
+                        <div class="myproyek">
+                            <div class="atribut">
+                                <p class="title-atribut">Tribute Page</p>
+                                <a href="#" class="t-image"><img src="image/tribute_page.png" alt="photo profile" class="image"></a>
+                                <div class="language">
+                                    <p class="type-lang">HTML</p>
+                                    <p class="type-lang">CSS</p>
+                                </div>
+                                <div class="t-buttom">
+                                    <a class="code" href="#">Code</a>
+                                    <a class="link" href="#">Link</a>
+                                </div>
+                            </div>
+                            <div class="atribut">
+                                <p class="title-atribut">Tribute Page</p>
+                                <a href="#" class="t-image"><img src="image/porto.png" alt="photo profile" class="image"></a>
+                                <div class="language">
+                                    <p class="type-lang">HTML</p>
+                                    <p class="type-lang">CSS</p>
+                                </div>
+                                <div class="t-buttom">
+                                    <a class="code" href="#">Code</a>
+                                    <a class="link" href="#">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)"><i data-feather="chevron-left"></i></a>
+                    <a class="next" onclick="plusSlides(1)"><i data-feather="chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="contact" id="contact">
+                <a href="https://www.linkedin.com/in/arif-hayati-indah-lestari/" target="_blank" class="type-contact"><i
+                        data-feather="linkedin"></i> LinkedIn</a>
+                <a href="https://kalibrr.com/referral/signup?ref=referrals-social-share-copy-4843919&ref_uid=4843919&ref_src=cp" target="_blank" class="type-contact"><i data-feather="link-2"></i> Kalibrr</a>
+                <a href="https://github.com/IndahSkr" target="_blank" class="type-contact"><i data-feather="github"></i>
+                    Github</a>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    feather.replace()
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+
+    }
+
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.menu')) {
+            var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+</script>
+
+</html>
